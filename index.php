@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Sumware</title>
+
+        <meta name="description" content="A Sumware é uma empresa que está presente na área de criação e desenvolvimento com diferencial criativo.">
+        <meta property="og:title" content="Sumware"/>
+        <meta property="og:image" content="http://www.sumware.com.br/img/sumware200px.jpg"/>
+        <meta property="og:site_name" content="Sumware"/>
+        <meta property="og:url" content="http://www.sumware.com.br"/>
+        <meta property="og:description" content="A Sumware é uma empresa que está presente na área de criação e desenvolvimento com diferencial criativo."/>
+
+        <!-- Bootstrap -->
+        <link href="thirdparty/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+        <link href="css/sumware.css" rel="stylesheet">
+        <link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
+
+        <script src="js/swiffy_runtime.js"></script>
+        <script src="js/sumware.js"></script>
+
+    </head>
+    <body data-spy="scroll" data-target=".navbar-default" >
+        <div id="wrap" style="margin-bottom:15px;">
+            <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+                <div class="container-fluid">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="/">Sumware</a>
+                    </div>
+                    <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+                        <ul class="nav navbar-nav">
+                            <li><a href="#quemsomos">Quem Somos</a></li>
+                            <li><a href="#startups">Startups</a></li>
+
+                        </ul>
+                    </nav>
+                </div><!-- /.container-fluid -->
+            </nav>
+            <div class="container">
+                <div class="row row-centered hidden-xs hidden-sm" style="margin-left:-47px;margin-top:100px;">
+                    <div id="swiffycontainer" class="col-centered col-lg-9" style="text-align: center; width: 780px; height: 300px"></div>
+                </div>
+                <div id="quemsomos" class="row">
+                    <div class="col-lg-12" style="margin-top:30px;padding-top: 60px;border-top: 1px solid #e1e1e1;">
+                    </div>
+                </div>
+                <div >
+                    <div  class="row  row-centered" >
+                        <div class="col-lg-3 col-centered">
+                            <h2>Quem Somos</h2>
+                            <p>A Sumware é uma empresa que está presente na área de criação e desenvolvimento com diferencial criativo.</p>
+                            <p>Olhamos para os novos desafios dos projetos como uma grande oportunidade de encontrar soluções que sejam escaláveis e persistentes.</p>
+                            <p>Acreditamos que a inovação é chave para atender melhor o cliente.</p>
+                        </div>        
+                        <div class="col-lg-3 col-centered">
+                            <h2>Creative</h2>
+                            <p><img src="img/sumwarecreative.gif" border="0" alt=" " width="200" height="25" /> </p>
+                            <p>Responsável pela vertente de criação e design, a Sumware Creative vem com o objetivo de preencher o vazio existente hoje na comunicação digital.</p>
+                            <p>Visando criatividade, simplicidade e comprometimento, desenvolvemos seus projetos para internet ou campanhas online, cumprindo prazos e propostas apresentadas. </p>                                 
+                        </div>
+                        <div class="col-lg-3 col-centered">
+                            <h2>Code</h2>
+                            <p><img src="img/sumwarecode.gif" border="0" alt=" " width="171" height="25" />  </p>
+
+                            <p>Executa trabalhos de desenvolvimento, infra-estrutura e suporte focada em ambientes da plataforma J2EE.</p>
+
+                            <p>Com larga experiência com soluções WCM da OpenText, fornece serviços de consultoria para os seus produtos.</p>
+                            <p>Elaboração de aplicações Mobile, com projetos em iOS, Android e Web.</p>
+                        </div>
+                    </div> 
+                    <div id="redesocial" class="row">
+
+                        <div  class="col-lg-12" style="background-color: #6d84b4; text-align:center;margin-top: 30px; padding-bottom: 50px;padding-top: 60px;border-top: 1px solid #e1e1e1;">
+                            <a target="_blank" href="https://www.facebook.com/sumware"><img src="img/facebook-icon.png" alt="facebook" width="50" height="50" style="margin-bottom:20px"></a><h3 style="color:white">Acompanhe as novidades da Sumware.<br/>Participe de nossa página no <a style="color:white" target="_blank" href="https://www.facebook.com/sumware">Facebook</a>!</h3>
+                        </div>
+                    </div>
+
+                    <div id="startups" class="row">
+
+                        <div  class="col-lg-12" style="text-align:center;margin-top: 60px; padding-bottom: 50px;">
+                            <h1>Startups com um toque a mais</h1>
+                        </div>
+                    </div>
+                    <div class="row row-centered">
+
+                        <div class="col-lg-7 col-centered" style="text-align:right">
+                            <h3>Cinestamp</h3>
+                            <p><a target="_blank" href="http://www.cinestamp.com">cinestamp.com</a>
+                            <p>Rede Social para os amantes da sétima arte, permitindo adicionar seus gostos por filmes de forma simples.
+                                Com vários reviews, inclusive no <a target="_blank"  href="http://www.msn.com/pt-pt/entretenimento/musica/cinestamp-a-rede-social-para-cinefilos/ar-BBl9cNw">MSN de Portugal</a> e <a target="_blank"  href="http://www.techtudo.com.br/noticias/noticia/2015/06/got-oitnb-e-mais-rede-social-cinestamp-reune-fas-de-series-e-filmes.html">TechTudo</a>.</p>
+                        </div>
+                        <div class="col-lg-2 col-centered hidden-xs hidden-sm" style="text-align:right">
+                            <img src="img/projects/cinestamp.png" alt="Cinestamp" width="180" height="180" class="img-circle">
+
+                        </div>
+                    </div>    
+                    <div class="row row-centered">
+                        <div class="col-lg-2 col-centered hidden-xs hidden-sm">
+                            <img src="img/projects/recygram.png" alt="Recygram" width="180" height="180" class="img-circle">
+
+                        </div>
+                        <div class="col-lg-7 col-centered">
+                            <h3>Recygram</h3>
+                            <p><a target="_blank" href="http://www.recygram.com">recygram.com</a>
+                            <p>Aplicativo para iOS que compacta fotos do Instagram ou copia para o Flickr, Tumblr ou Rolo de Câmera. Recebeu ótimas criticas de vários sites nacionais e internacionais, como <a target="_blank" href="http://macmagazine.com.br/2013/03/04/app-brasileiro-para-iphonesipods-touch-exporta-fotos-do-instagram-de-multiplas-formas/">MacMagazine</a> e <a target="_blank" href="http://www.cultofmac.com/218098/archive-batch-send-and-download-your-instagram-photos-with-recygram-ios-tips/">Cult of Mac</a>.
+                                Atualmente está em desenvolvimento a versão 2.0, trazendo maior integração entre os serviços de imagens e vídeos.</p>
+                        </div>
+
+                    </div>    
+
+                    <div class="row row-centered">   
+
+                        <div class="col-lg-7 col-centered" style="text-align:right">
+                            <h3>Japode</h3>
+                            <p><a target="_blank" href="http://www.japode.com">japode.com</a></p>
+                            <p>Projeto em andamento, como o objetivo de criar um novo conceito de Content Management, 
+                                permitindo criar e compartilhar conteúdos de uma maneira fácil e intuitiva.</p>
+                        </div>
+                        <div class="col-lg-2 col-centered hidden-xs hidden-sm" style="text-align:right">
+                            <img src="img/projects/japode.png" alt="Japode" width="180" height="180" class="img-circle">
+                        </div>
+
+                    </div>     
+                </div>
+            </div>
+        </div>
+        <div id="footer">
+            <div class="container">
+                <p style="text-align: center;padding-top:10px">© <?php echo date("Y"); ?> Sumware</p>
+            </div>
+        </div>
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="thirdparty/jquery/dist/jquery.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="thirdparty/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script>
+
+            var stage = new swiffy.Stage(document.getElementById('swiffycontainer'),
+                    swiffyobject);
+
+            stage.start();
+
+            $('body').scrollspy({target: '.navbar-default'})
+        </script>
+    </body>
+
+</html>
